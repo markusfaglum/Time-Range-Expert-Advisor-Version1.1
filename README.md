@@ -1,12 +1,7 @@
-# TimeRangeExpertAdvisorVerson1.1
+The EA identifies the high and low within a specified time range. When the price breaks either the high or low, a trade is initiated with a stop loss placed at the respective high or low. All trades are closed at a predetermined time.
 
-The EA finds the high and low from a specified time range, whenever the price breaks
-the high/low a trade is enterd with a stop loss at high/low.                                
-Closes all trades at specified time.
+Version 1.1 introduces a change in logic, where a stop run is required before the entry. To initiate a short trade, the high must be taken out before the low, with the stop loss placed at the high.
 
-V1.1 Changes the logic to trade a stop run before the entry, 
-meaning that to short the high needs to be taken before the low and entry
-stop loss at the high.
-
-2009-2015 Used for optimising  
-2015-2024 Forward Test
+Optimization Data:
+2009–2015 used for optimizing inputs
+2015–2024 used for forward testing
